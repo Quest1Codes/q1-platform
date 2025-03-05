@@ -1,4 +1,5 @@
-## Quest1 Platform UI mockup - Created using an architecture diagram and a Zero Shot Prompt fed into to Lovable.dev
+## Quest1 Platform UI mockup
+Created using an architecture diagram and a Zero Shot Prompt fed into to Lovable.dev
 
 ## Project info
 
