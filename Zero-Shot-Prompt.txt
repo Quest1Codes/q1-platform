@@ -1,0 +1,7 @@
+## Zero Shot prompt for Lovable.dev
+
+## Used in conjunction with GenAI Platform Component Architecture for App Modernization-Iteration-03-Logical View.drawio.png
+
+## The prompt
+
+I have a concept for a GenAI based RAG platform that can ingest different types of data (structured and unstructured) and provide a UI to query the platform using plain english and an API interface. The conceptual diagram looks like the attached image. Can you use this and generate a UI interface for such a solution?
