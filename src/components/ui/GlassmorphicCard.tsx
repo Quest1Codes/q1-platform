@@ -6,12 +6,14 @@ interface GlassmorphicCardProps {
   children: React.ReactNode;
   className?: string;
   variant?: 'default' | 'dark' | 'purple';
+  onClick?: () => void;  // Added onClick property
 }
 
 const GlassmorphicCard: React.FC<GlassmorphicCardProps> = ({ 
   children, 
   className,
-  variant = 'default'
+  variant = 'default',
+  onClick
 }) => {
   const variantClasses = {
     default: 'glass-effect',
@@ -20,11 +22,14 @@ const GlassmorphicCard: React.FC<GlassmorphicCardProps> = ({
   };
 
   return (
-    <div className={cn(
-      "rounded-lg p-4 transition-all duration-300 hover:shadow-md",
-      variantClasses[variant],
-      className
-    )}>
+    <div 
+      className={cn(
+        "rounded-lg p-4 transition-all duration-300 hover:shadow-md",
+        variantClasses[variant],
+        className
+      )}
+      onClick={onClick}
+    >
       {children}
     </div>
   );
