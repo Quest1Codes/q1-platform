@@ -1,27 +1,10 @@
-# Welcome to your Lovable project
+# The UI mockup for this has been created by feeding an architecture diagram to Lovable.Dev with a Zeroshot Prompt
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/b07e1d55-fc7c-46e9-8475-5f1eb9218986
+Architecture Diagram: GenAI Platform Component Architecture for App Modernization-Iteration-03-Logical View.drawio.png
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/b07e1d55-fc7c-46e9-8475-5f1eb9218986) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
+## Install and run as follows
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
@@ -60,10 +43,3 @@ This project is built with .
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/b07e1d55-fc7c-46e9-8475-5f1eb9218986) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
